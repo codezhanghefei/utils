@@ -1,0 +1,29 @@
+{
+  "name": "@code-zhf/utils",
+  "version": "1.0.0",
+  "description": "常用工具函数",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -w",
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codezhanghefei/utils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "zhanghefei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codezhanghefei/utils/issues"
+  },
+  "homepage": "https://github.com/codezhanghefei/utils#readme",
+  "dependencies": {
+    "rollup": "^3.2.3",
+    "typescript": "^4.8.4"
+  }
+}
