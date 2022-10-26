@@ -10,5 +10,16 @@ Object命名大驼峰和小驼峰相互转换。
 
 #### 用法
 ```js
-const resulst = formatHump(originObject, reversal);
+const result = formatHump(originObject, reversal);
+```
+
+
+### isNull
+
+#### 功能
+判断入参是否为空
+
+#### 用法
+```js
+const result: boolean = isNull(arg);
 ```
